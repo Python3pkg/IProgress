@@ -117,7 +117,7 @@ def example6():
 @example
 def example7():
     pbar = ProgressBar()  # Progressbar can guess maxval automatically.
-    for i in pbar(range(80)):
+    for i in pbar(list(range(80))):
         time.sleep(0.01)
 
 
